@@ -11,9 +11,9 @@ const Contacts = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const phoneNumber = '6281296262351'; // ganti dengan nomor WhatsApp tujuan
-    const messageText = `Nama: ${name}%0AEmail: ${email}%0APesan: ${message}`; // format pesan
-    window.open(`https://wa.me/${phoneNumber}?text=${messageText}`, '_blank'); // membuka link WhatsApp di tab baru
+    const phoneNumber = '6281296262351'; 
+    const messageText = `Nama: ${name}%0AEmail: ${email}%0APesan: ${message}`; 
+    window.open(`https://wa.me/${phoneNumber}?text=${messageText}`, '_blank'); 
   };
 
   return (
