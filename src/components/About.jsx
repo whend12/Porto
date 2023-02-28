@@ -29,14 +29,14 @@ const About = () => {
                             viewport={{ once: false, amount: 0.3 }} />
                     </div>
                     {/* text */}
-                    <div className='flex-1 mt-5 md:mt-0 md:ml-5'>
+                    <div className='flex-1 mt-5 md:mt-0 md:ml-5 mr-4 text-gray-100'>
                         <h2 className='h2 font-poppins font-semibold'>
                             About Me.
                         </h2>
                         <h3 className='h4 mb-4 '>
                             I'm a Undergraduate from President University majoring in Information System.
                         </h3>
-                        <p className='mb-6'>
+                        <p className='mb-6 mr-3'>
                             I have a strong initiative and ambition to create creative and effective solutions for
                             problems in web development. I am proficient in programming languages such as JavaScript
                             and various CMS to build responsive and interactive websites.
