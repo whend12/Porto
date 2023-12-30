@@ -131,10 +131,7 @@ const Project = () => {
               </a>
             </div>
             <div>
-              <a
-                href=""
-                className="block relative hover:opacity-75 transition ease-in-out duration-150"
-              >
+              <a className="block relative hover:opacity-75 transition ease-in-out duration-150">
                 <img
                   className="w-full h-auto rounded-t-3xl"
                   src={lab}
@@ -144,10 +141,7 @@ const Project = () => {
               </a>
             </div>
             <div>
-              <a
-                href=""
-                className="block relative hover:opacity-75 transition ease-in-out duration-150"
-              >
+              <a className="block relative hover:opacity-75 transition ease-in-out duration-150">
                 <img
                   className="w-full h-auto rounded-t-3xl"
                   src={list}
