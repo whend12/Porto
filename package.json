@@ -16,10 +16,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-intersection-observer": "^9.4.2",
-<<<<<<< HEAD
     "react-responsive-carousel": "^3.2.23",
-=======
->>>>>>> cbb5a711a7473c51f431478d9f0a01b66bc2f446
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
@@ -28,11 +25,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-=======
->>>>>>> cbb5a711a7473c51f431478d9f0a01b66bc2f446
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -56,10 +50,7 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
     "gh-pages": "^5.0.0",
-=======
->>>>>>> cbb5a711a7473c51f431478d9f0a01b66bc2f446
     "tailwindcss": "^3.2.4"
   }
 }
