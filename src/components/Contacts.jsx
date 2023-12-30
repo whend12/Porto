@@ -36,7 +36,7 @@ const Contacts = () => {
               </div>
             </motion.div>
             {/* form */}
-            <form className='flex-1 border rounded-2xl flex flex-col gap-y-2 pb-15 p-4 items-start mr-3'>
+            <form className='flex-1 border rounded-2xl flex flex-col gap-y-2 pb-15 p-4 items-start mr-3 text-gray-100'>
               <input
                 className='bg-transparent border-b py-3 placeholder:opacity-50 outline-none w-full placeholder:text-white focus:border-gray-500 transition-all'
                 type='text'
