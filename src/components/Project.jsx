@@ -1,6 +1,8 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Helmet } from "react-helmet";
+
 import abstract from "../assets/abstract.png";
 import stocktifity from "../assets/stocktifity.png";
 import list from "../assets/pasienlist.jpg";
@@ -106,7 +108,7 @@ const Project = () => {
           <Carousel showArrows={true} infiniteLoop={true}>
             <div>
               <a
-                href=""
+                href="#"
                 className="block relative hover:opacity-75 transition ease-in-out duration-150"
               >
                 <img
@@ -119,7 +121,7 @@ const Project = () => {
             </div>
             <div>
               <a
-                href=""
+                href="#"
                 className="block relative hover:opacity-75 transition ease-in-out duration-150"
               >
                 <img
@@ -216,9 +218,15 @@ const Project = () => {
           </div>
         </div>
       </div>
+      <Helmet>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4479966978851297"
+          crossOrigin="anonymous"
+        ></script>
+      </Helmet>
     </section>
   );
 };
 
 export default Project;
-
