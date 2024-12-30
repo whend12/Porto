@@ -10,6 +10,13 @@ import lab from "../assets/formlab.jpg";
 import fisik from "../assets/formfisik.jpg";
 import saran from "../assets/formsaran.jpg";
 import cuaca from "../assets/cuaca.png";
+import dcareut from "../assets/dcareut.png";
+import gotjob1 from "../assets/gotjob_1.png";
+import gotjob2 from "../assets/gotjob_2.png";
+import gotjob3 from "../assets/gotjob_3.png";
+import ess1 from "../assets/ess_1.png";
+import ess2 from "../assets/ess_2.png";
+import ess3 from "../assets/ess_3.png";
 
 const Project = () => {
   return (
@@ -25,8 +32,10 @@ const Project = () => {
         {/* Card 1 */}
         <div className="rounded-3xl overflow-hidden bg-gray-700">
           <a
-            href="https://whennnd.my.id/"
+            href="https://whennnd.vercel.app/"
             className="block relative hover:opacity-75 transition ease-in-out duration-150"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               className="w-full rounded-t-3xl"
@@ -67,6 +76,8 @@ const Project = () => {
           <a
             href="https://github.com/whend12/Warehouse-Stocktifity"
             className="block relative hover:opacity-75 transition ease-in-out duration-150"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               className="w-full rounded-t-3xl"
@@ -107,9 +118,11 @@ const Project = () => {
         <div className="rounded-3xl overflow-hidden bg-gray-700">
           <Carousel showArrows={true} infiniteLoop={true}>
             <div>
-              <a
+              <button
                 href="#"
                 className="block relative hover:opacity-75 transition ease-in-out duration-150"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   className="w-full h-auto rounded-t-3xl"
@@ -117,12 +130,14 @@ const Project = () => {
                   alt="Stocktifity1"
                   style={{ width: "100%", height: "auto" }}
                 />
-              </a>
+              </button>
             </div>
             <div>
-              <a
+              <button
                 href="#"
                 className="block relative hover:opacity-75 transition ease-in-out duration-150"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   className="w-full h-auto rounded-t-3xl"
@@ -130,7 +145,7 @@ const Project = () => {
                   alt="Stocktifity2"
                   style={{ width: "100%", height: "auto" }}
                 />
-              </a>
+              </button>
             </div>
             <div>
               <a className="block relative hover:opacity-75 transition ease-in-out duration-150">
@@ -184,11 +199,13 @@ const Project = () => {
           <a
             href="https://kelompok3-final-project-4.netlify.app/"
             className="block relative hover:opacity-75 transition ease-in-out duration-150"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               className="w-full h-auto rounded-t-3xl"
               src={cuaca}
-              alt="AbstractCoffee"
+              alt="DcareUT"
               style={{ width: "100%", height: "auto" }}
             />
             <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition ease-in-out duration-150">
@@ -217,6 +234,196 @@ const Project = () => {
             </span>
           </div>
         </div>
+        {/* Card 5 */}
+        <div className="rounded-3xl overflow-hidden bg-gray-700">
+          <a
+            href="https://gotjob.id/"
+            className="block relative hover:opacity-75 transition ease-in-out duration-150"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="w-full h-auto rounded-t-3xl"
+              src={dcareut}
+              alt="Gotjob"
+              style={{ width: "100%", height: "auto" }}
+            />
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition ease-in-out duration-150">
+              <div className="bg-gray-900 bg-opacity-75 rounded-lg px-3 py-1">
+                <p className="text-white font-bold">Visit</p>
+              </div>
+            </div>
+          </a>
+          <div className="px-6 py-4">
+            <div className="font-semibold text-gray-50 text-xl mb-2">
+              DayCare United Tractors
+            </div>
+            <p className="text-gray-50 text-justify text-sm">
+              DayCare United Tractors is a website that provides information
+              about daycare services for children of AHEMCE Group employees. The
+              website offers a range of services, including information about
+              the daycare center, the services provided, and how to register for
+              daycare services.
+            </p>
+          </div>
+          <div className="px-6 pb-4">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2  hover:bg-gray-400 transition duration-300 ease-in-out">
+              Boostrap
+            </span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2  hover:bg-gray-400 transition duration-300 ease-in-out">
+              Laravel
+            </span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2  hover:bg-gray-400 transition duration-300 ease-in-out">
+              Vue JS
+            </span>
+          </div>
+        </div>
+        {/* end card 5 */}
+        {/* Card 6 */}
+        <div className="rounded-3xl overflow-hidden bg-gray-700">
+          <Carousel showArrows={true} infiniteLoop={true}>
+            <div>
+              <a
+                href="https://gotjob.id/"
+                className="block relative hover:opacity-75 transition ease-in-out duration-150"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition ease-in-out duration-150">
+                  <div className="bg-gray-900 bg-opacity-75 rounded-lg px-3 py-1">
+                    <p className="text-white font-bold">Visit</p>
+                  </div>
+                </div>
+                <img
+                  className="w-full h-auto rounded-t-3xl"
+                  src={gotjob1}
+                  alt="gotjob_1"
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="block relative hover:opacity-75 transition ease-in-out duration-150"
+              >
+                <img
+                  className="w-full h-auto rounded-t-3xl"
+                  src={gotjob2}
+                  alt="gotjob_2"
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </a>
+            </div>
+            <div>
+              <a className="block relative hover:opacity-75 transition ease-in-out duration-150">
+                <img
+                  className="w-full h-auto rounded-t-3xl"
+                  src={gotjob3}
+                  alt="gotjob_3"
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </a>
+            </div>
+          </Carousel>
+          <div className="px-6 py-4">
+            <div className="font-semibold text-gray-50 text-xl mb-2">
+              GOTJOB - Job Portal
+            </div>
+            <p className="text-gray-50 text-justify text-sm">
+              GOTJOB is a job portal platform that connects job seekers with
+              employers. It provides a range of services, including job
+              searching, resume building, and job posting. The platform is
+              designed to help job seekers find employment opportunities and
+              employers find qualified candidates.
+            </p>
+          </div>
+          <div className="px-6 pb-4">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2  hover:bg-gray-400 transition duration-300 ease-in-out">
+              Vue Js
+            </span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2  hover:bg-gray-400 transition duration-300 ease-in-out">
+              Tailwind CSS
+            </span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2  hover:bg-gray-400 transition duration-300 ease-in-out">
+              Django
+            </span>
+          </div>
+        </div>
+        {/* end of card 7 */}
+        {/* Card 7 */}
+        <div className="rounded-3xl overflow-hidden bg-gray-700">
+          <Carousel showArrows={true} infiniteLoop={true}>
+            <div>
+              <a
+                href="/"
+                className="block relative hover:opacity-75 transition ease-in-out duration-150"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition ease-in-out duration-150">
+                  <div className="bg-gray-900 bg-opacity-75 rounded-lg px-3 py-1">
+                    <p className="text-white font-bold">Visit</p>
+                  </div>
+                </div>
+                <img
+                  className="w-full h-auto rounded-t-3xl"
+                  src={ess1}
+                  alt="ess_1"
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </a>
+            </div>
+            <div>
+              <a
+                href="#"
+                className="block relative hover:opacity-75 transition ease-in-out duration-150"
+              >
+                <img
+                  className="w-full h-auto rounded-t-3xl"
+                  src={ess2}
+                  alt="ess_2"
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </a>
+            </div>
+            <div>
+              <a className="block relative hover:opacity-75 transition ease-in-out duration-150">
+                <img
+                  className="w-full h-auto rounded-t-3xl"
+                  src={ess3}
+                  alt="ess_3"
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </a>
+            </div>
+          </Carousel>
+          <div className="px-6 py-4">
+            <div className="font-semibold text-gray-50 text-xl mb-2">
+              Attends - Employee Self Service
+            </div>
+            <p className="text-gray-50 text-justify text-sm">
+              Attends is an employee self-service platform that enables
+              employees to manage their personal information, view their work
+              schedules, Payslip, Tax Voucher, Attandance,Index Mood and request
+              time off. The platform is designed to streamline HR processes and
+              improve employee engagement by providing a user-friendly interface
+              for employees to access HR services.
+            </p>
+          </div>
+          <div className="px-6 pb-4">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2  hover:bg-gray-400 transition duration-300 ease-in-out">
+              Vue Js
+            </span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2  hover:bg-gray-400 transition duration-300 ease-in-out">
+              Tailwind CSS
+            </span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2  hover:bg-gray-400 transition duration-300 ease-in-out">
+              Django
+            </span>
+          </div>
+        </div>
+        {/* end of card 7 */}
       </div>
       <Helmet>
         <script
